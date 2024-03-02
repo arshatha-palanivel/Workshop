@@ -8,6 +8,7 @@
 
 ## Program
 Developed by: ARSHATHA
+
 Register Number: 212222230012
 
 ```py
@@ -17,7 +18,7 @@ image=cv2.resize(image,(400,400))
 cv2.imshow('ARSHA',image)
 cv2.waitKey(0)
 ```
-# The image should be Converted to gray scale
+### The image should be Converted to gray scale
 ```py
 import cv2
 image = cv2.imread('rose.jpeg')
@@ -26,7 +27,7 @@ cv2. imshow('ARSHA', gray)
 cv2. waitKey(0)
 cv2. destroyAllWindows()
 ```
-#  The image should be Converted to HSV
+### The image should be Converted to HSV
 ```py
 import cv2
 image = cv2.imread('rose.jpeg')
@@ -35,7 +36,7 @@ cv2. imshow('ARSHA', gray)
 cv2. waitKey(0)
 cv2. destroyAllWindows()
 ```
-# Display the H, S and V planes
+### Display the H, S and V planes
 ```py
 import cv2
 image=cv2.imread("rose.jpeg",1)
@@ -60,9 +61,7 @@ cv2.imshow('Value',V)
 ### Display the H, S and V planes
 ![04](https://github.com/arshatha-palanivel/Workshop/assets/118682484/4dba9035-86b3-4a4d-93e4-f4b2e12081c7)
 
-![05](https://github.com/arshatha-palanivel/Workshop/assets/118682484/8d8d7c58-95b6-45ff-9c87-7d034d9d0999)
 
-![06](https://github.com/arshatha-palanivel/Workshop/assets/118682484/cca38afc-a4e6-47df-9449-8b5aae39e5b0)
 
 
 
